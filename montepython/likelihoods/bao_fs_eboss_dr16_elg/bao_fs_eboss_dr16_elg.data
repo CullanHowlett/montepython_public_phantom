@@ -1,0 +1,11 @@
+# eBOSS BAO + FS DR16. Not well approximated by a Gaussian
+# so interpolates the 3D likelihood surface of D_M/r_d, D_H/r_d and fsigma8.
+# Written by Cullan Howlett May 2022.
+
+bao_fs_eboss_dr16_elg.data_directory      = data.path['data']
+bao_fs_eboss_dr16_elg.file                = 'SDSS_DR16_all_scans/sdss_DR16_ELG_aux.txt'
+bao_fs_eboss_dr16_elg.cf_scan             = 'SDSS_DR16_all_scans/sdss_DR16_ELG_FSBAO_DMDHfs8gridlikelihood.txt'
+bao_fs_eboss_dr16_elg.rd_rescale          = 1.0
+
+bao_fs_eboss_dr16_elg.transverse_fid      = 1.0
+bao_fs_eboss_dr16_elg.parallel_fid        = 1.0

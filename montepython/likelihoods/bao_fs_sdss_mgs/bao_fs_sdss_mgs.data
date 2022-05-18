@@ -1,0 +1,8 @@
+# SDSS MGS BAO + FS
+# Alam et al. 2020
+# By Cullan Howlett May 2022
+bao_fs_sdss_mgs.data_directory      = data.path['data']
+bao_fs_sdss_mgs.data_file           = 'SDSS_DR16_all_scans/sdss_MGS_FSBAO_DVfs8.txt'
+bao_fs_sdss_mgs.cov_file            = 'SDSS_DR16_all_scans/sdss_MGS_FSBAO_DVfs8_covtot.txt'
+bao_fs_sdss_mgs.rs_rescale          = 1.
+bao_fs_sdss_mgs.rd_fid_in_Mpc	    = 147.8

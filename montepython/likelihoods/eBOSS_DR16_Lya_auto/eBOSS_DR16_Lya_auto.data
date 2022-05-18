@@ -1,0 +1,11 @@
+# This likelihood is from Cuceu, Farr, Lemos & Font-Ribera 2019 (1906.11628) and
+# is based on data from de Sainte Agathe et al. 2019 (1904.03400).
+# Written by Cullan Howlett May 2022.
+
+eBOSS_DR16_Lya_auto.data_directory      = data.path['data']
+eBOSS_DR16_Lya_auto.file                = 'SDSS_DR16_all_scans/sdss_DR16_LYAUTO_aux.txt'
+eBOSS_DR16_Lya_auto.cf_scan             = 'SDSS_DR16_all_scans/sdss_DR16_LYAUTO_BAO_DMDHgrid.txt'
+eBOSS_DR16_Lya_auto.rd_rescale          = 1.0
+
+eBOSS_DR16_Lya_auto.transverse_fid      = 1.0
+eBOSS_DR16_Lya_auto.parallel_fid        = 1.0

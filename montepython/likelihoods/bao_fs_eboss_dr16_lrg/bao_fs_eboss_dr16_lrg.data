@@ -1,0 +1,8 @@
+# eBOSS BAO+FS DR16 LRG
+# Alam et al. 2020
+# By Cullan Howlett May 2022
+bao_fs_eboss_dr16_lrg.data_directory      = data.path['data']
+bao_fs_eboss_dr16_lrg.data_file           = 'SDSS_DR16_all_scans/sdss_DR16_LRG_FSBAO_DMDHfs8.txt'
+bao_fs_eboss_dr16_lrg.cov_file            = 'SDSS_DR16_all_scans/sdss_DR16_LRG_FSBAO_DMDHfs8_covtot.txt'
+bao_fs_eboss_dr16_lrg.rs_rescale          = 1.
+bao_fs_eboss_dr16_lrg.rd_fid_in_Mpc	      = 147.8

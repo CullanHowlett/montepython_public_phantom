@@ -1,0 +1,8 @@
+# BOSS BAO+FS DR12 z1 and z2 only
+# Alam et al. 2020
+# By Cullan Howlett May 2022
+bao_fs_boss_dr12_z1z2.data_directory      = data.path['data']
+bao_fs_boss_dr12_z1z2.data_file           = 'SDSS_DR16_all_scans/sdss_DR12_LRG_FSBAO_DMDHfs8.txt'
+bao_fs_boss_dr12_z1z2.cov_file            = 'SDSS_DR16_all_scans/sdss_DR12_LRG_FSBAO_DMDHfs8_covtot.txt'
+bao_fs_boss_dr12_z1z2.rs_rescale          = 1.
+bao_fs_boss_dr12_z1z2.rd_fid_in_Mpc	      = 147.8
